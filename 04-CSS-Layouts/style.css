@@ -14,14 +14,14 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
 }
 
 .main-header {
-  background-color: #f7f7f7;
+  background-color: #b2bdd0;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
@@ -58,7 +58,7 @@ aside {
 h1,
 h2,
 h3 {
-  color: #1098ad;
+  color: #d28818;
 }
 
 h1 {
@@ -265,3 +265,48 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+/*
+float
+*/
+
+.author-img {
+  float: left;
+  margin-bottom: 10px;
+}
+.author {
+  margin-left: 16px;
+  margin-top: 10px;
+  float: left;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+.clear-fix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  float: left;
+  width: 850px;
+}
+
+aside {
+  float: right;
+  width: 300px;
+}
+
+footer p {
+  clear: both;
+}
