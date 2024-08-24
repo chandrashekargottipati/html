@@ -14,6 +14,7 @@
       }
       .el--3 {
         background-color: green;
+
         height: 150px;
       }
       .el--4 {
@@ -40,6 +41,32 @@
         margin: 40px;
 
         /* FLEXBOX */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 30px;
+      }
+
+      .el {
+        /* margin-right: 10px; */
+      }
+      .el--1 {
+        align-self: flex-start;
+      }
+      .el--5 {
+        align-self: stretch;
+      }
+
+      .el--6 {
+        order: -1;
+      }
+      .el--4 {
+        order: 1;
+      }
+      .el--5 {
+        order: 2;
+        margin-right: 10px;
       }
     </style>
   </head>
