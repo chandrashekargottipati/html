@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hero component</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-weight: 100;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      font-size: 20px;
+      padding: 20px;
+      /* background-image: linear-gradient( 
+        to right,
+        rgb(113, 52, 52),
+        rgb(68, 68, 141)
+      ); */
+      border-radius: 10px;
+
+      /* background-color: green; */
+    }
+    h1 {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      font-size: 60px;
+      font-weight: 200;
+      margin-bottom: 32px;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    .heading {
+      background-color: gray;
+      display: flex;
+      flex-direction: column;
+    }
+    a {
+      text-decoration: none;
+      background-color: orange;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      border-radius: 9px;
+      color: white;
+    }
+    h2 {
+      margin-top: 20px;
+      font-size: 44px;
+    }
+    .container {
+      margin: 0 auto;
+      width: 1200px;
+    }
+    header {
+      /* background-color: orange; */
+      height: 100vh;
+      position: relative;
+      background-image: linear-gradient(
+          rgba(82, 30, 30, 0.1),
+          rgba(174, 127, 127, 0.3)
+        ),
+        url(hero.jpg);
+      background-size: cover;
+      color: white;
+    }
+    .container-heading {
+      width: 1200px;
+
+      left: 50%;
+      top: 50%;
+
+      transform: translate(-50%, -50%);
+      position: absolute;
+      /* background-color: violet; */
+      /* text-align: center; */
+    }
+    .container-heading-inner {
+      width: 50%;
+    }
+    section {
+      line-height: 1.6;
+    }
+  </style>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div>Logo</div>
+          <div>Navigation</div>
+        </nav>
+      </div>
+
+      <div class="container-heading">
+        <div class="container-heading-inner">
+          <h1>A healthy meal delivered to your door, every single day</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+            eius dicta quos, nam quibusdam consequuntur facilis quidem nisi sunt
+            asperiores
+          </p>
+          <a href="#">Start eating well</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2>Demo section heading h2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas iste aut
+          harum placeat laborum natus porro perferendis, nisi, corporis ad
+          repellendus, consequatur fuga vero ducimus laudantium quaerat
+          laboriosam maiores molestias. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Ipsam perferendis expedita, dicta, blanditiis et
+          sint suscipit exercitationem velit dolorem nemo nam ab omnis quisquam
+          libero minima consectetur sapiente, sed veniam?
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
